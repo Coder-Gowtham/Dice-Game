@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+
+  <!-- Styles and fonts -->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8600c6fe52.js" crossorigin="anonymous"></script>
+
+  
+ <!-- Google Fonts  font-family: 'Montserrat', sans-serif;
+                    font-family: 'Ubuntu', sans-serif;       -->
+ <link
+ href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400;500;700&display=swap"
+ rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Righteous&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Dice roll section -->
+  <section id="diceroll">
+    <button type="button" class="btn btn-outline-primary" onClick="editNames()">Edit Name</button>
+
+    <div class="container">
+
+        <h1 class="winner-heading">Ready to ROLL</h1>
+        
+      <div class="row">
+        
+          <div class="dice2 col-lg-6 col-md-6 col-sm-12 col-xs-6">
+            <h3 class="player1">Player 1</h3>
+            <img class="img1" src="images/dice6.png">
+          </div>
+
+          <div class="dice2 col-lg-6 col-md-6 col-sm-12 col-xs-6">
+            <h3 class="player2">Player 2</h3>
+            <img class="img2" src="images/dice6.png">
+          </div>
+      
+      </div>
+
+      <!-- Button -->
+      
+        <button class="btn click-button btn-outline-warning btn-lg  d-grid gap-2 col-3 mx-auto " onClick="rollTheDice()" type="button"><h2>ROLL</h2></button>
+      
+    </div>
+
+
+  </section>
+  <script src="index.js"></script>
+</body>
+<footer id="footer">
+  <a href="https://github.com/Coder-Gowtham" target="_blank"> <i class="social-icons fa-brands fa-github"></i></a>
+  <a href="https://www.facebook.com/profile.php?id=100015198160045" target="_blank"><i
+      class="social-icons fa-brands fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/ga_ut_am__/?hl=en" target="_blank"><i
+      class="social-icons fa-brands fa-instagram"></i></a>
+  <a href="mailto:codewithgowtham.kv@gmail.com" target="_blank"><i class="social-icons fa-solid fa-envelope"></i></a>
+  <p class="copyright">© Copyright 2022 Gowtham KV</p>
+
+</footer>
+</html>

@@ -1,0 +1,54 @@
+body{
+  text-align: center;
+ 
+}
+
+#diceroll{
+  padding-bottom: 10%;
+}
+
+.winner-heading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4.5rem;
+  line-height: 2;
+  color: gold;
+}
+
+h3{
+  color: azure;
+}
+
+img{
+  width: 40%;
+}
+
+.click-button{
+  position: relative;
+  top: 40px;
+}
+  
+#diceroll{
+  text-align: center;
+  background-color: black;
+}
+.container{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+#footer{
+  text-align: center;
+  height: 5rem;
+}
+
+.social-icons{
+  margin:50px 10px 10px 20px;
+}
